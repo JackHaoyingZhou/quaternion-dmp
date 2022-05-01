@@ -1,3 +1,7 @@
+import matplotlib
+matplotlib.use('Qt5Agg')
+import matplotlib.pyplot as plt
+
 import numpy as np
 from scipy import interpolate
 from scipy.spatial.transform import Rotation as R
